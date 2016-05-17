@@ -1,0 +1,132 @@
+body{
+	background: #E6E6E6;
+}
+
+/*-----------------------NAVIGATION--------------------------------------*/
+
+.navbar {
+  margin-left: 450px;
+  margin-right: 450px;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+/*--------------------------------CAROUSEL------------------------------*/
+
+.carousel {
+  height: 400px;
+  margin-bottom: 60px;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 400px;
+  background-color: white;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/*--------------------------------CONTENU-------------------------------*/
+
+#contenu {
+	background-color: #F0F0F0;
+	padding-top: 80px;
+	margin-top: 80px;
+	margin-left: 450px;
+	margin-right: 450px;
+	border: 1px solid black;
+}
+
+/*-----------------------------CONTENU PANIER----------------------------*/
+
+#panier {
+	background-color: #F0F0F0;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-left: 450px;
+	margin-right: 450px;
+	border: 1px solid black;
+}
+/*--------------------------TAABLEAU DE PRODUITS-------------------------*/
+
+.produits{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.produits li{
+
+	display: inline-block;
+	width:151px;
+	height:auto;
+	border:1px solid black;
+	border-radius: 5px 0 5px 5px;
+	box-shadow: 2px 2px 2px;
+	text-align: center;
+	position: relative;
+	padding: 10px;
+	padding-right: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.produits li span{
+	display: block;
+	width:100%;
+	height:30px;
+}
+.produits li .titre{
+	
+	height:40px;
+	font-weight: bold;
+	font-style: italic;
+	color:#DE0F5B;
+	text-align: center;
+}
+.produits li .Etat{
+	font-size: 100%;
+	text-align: left;
+	color:#DE0F5B;
+	}
+.produits li .image{
+	height: 160px;
+    width: 128px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+	text-align: center;
+	float: center;
+	}
+
+#pied {
+	color: red;
+	background : #C0C0C0;
+	padding: 15px 20px;
+	font-size: 1em;
+}
+
+#pied p {
+	margin: .5em 0;
+	text-align: center;
+}
+
+#copyright {
+	color : black ;
+	font-size: 1em;
+	margin: 20px 0 5px 0;
+	text-align: left;
+}
